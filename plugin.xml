@@ -15,7 +15,7 @@
   <keywords>cordova,analytics</keywords>
   <repo>https://github.com/cmackay/google-analytics-plugin.git</repo>
 
-    <js-module src="www/analytics.js" name="GoogleAnalytics">
+    <js-module src="www/analytics.js" name="analytics">
       <clobbers target="ga" />
     </js-module>
     
