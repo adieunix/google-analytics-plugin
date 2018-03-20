@@ -16,7 +16,7 @@
   <repo>https://github.com/adieunix/google-analytics-plugin</repo>
 
     <js-module src="www/analytics.js" name="analytics">
-      <clobbers target="ga" />
+      <merges target="ga" />
     </js-module>
     
   <platform name="android">
