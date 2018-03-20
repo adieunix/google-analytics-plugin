@@ -15,10 +15,11 @@
   <keywords>cordova,analytics</keywords>
   <repo>https://github.com/cmackay/google-analytics-plugin.git</repo>
 
-  <platform name="android">
     <js-module src="www/analytics.js" name="GoogleAnalytics">
       <clobbers target="ga" />
     </js-module>
+    
+  <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GoogleAnalytics">
         <param name="android-package" value="com.cmackay.plugins.googleanalytics.GoogleAnalyticsPlugin" />
