@@ -16,7 +16,7 @@
   <repo>https://github.com/adieunix/google-analytics-plugin</repo>
 
     <js-module src="www/analytics.js" name="analytics">
-      <merges target="oomph.ga.plugin" />
+      <clobbers target="ga" />
     </js-module>
     
   <platform name="android">
