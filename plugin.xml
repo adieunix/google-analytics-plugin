@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.cmackay.plugins.googleanalytics"
+  id="oomph-ga-plugin"
   version="1.0.3">
 
   <engines>
@@ -9,11 +9,11 @@
   </engines>
 
   <name>GoogleAnalytics</name>
-  <description>Plugin for Google Analytics Native SDKs (Android, iOS)</description>
+  <description>Plugin for Google Analytics Native SDKs</description>
   <author>Craig MacKay</author>
   <license>Apache 2.0</license>
   <keywords>cordova,analytics</keywords>
-  <repo>https://github.com/cmackay/google-analytics-plugin.git</repo>
+  <repo>https://github.com/adieunix/google-analytics-plugin</repo>
 
     <js-module src="www/analytics.js" name="analytics">
       <clobbers target="ga" />
@@ -49,9 +49,11 @@
 
     <source-file src="android/GoogleAnalyticsPlugin.java" target-dir="src/com/cmackay/plugins/googleanalytics" />
 
+<!--
     <preference name="ANALYTICS_VERSION" default="+"/>
 
     <framework src="com.google.android.gms:play-services-analytics:$ANALYTICS_VERSION" />
+-->
 
     <proguard-config>
 -keep class * extends java.util.ListResourceBundle {
