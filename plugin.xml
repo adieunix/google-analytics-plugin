@@ -55,6 +55,7 @@
     <framework src="com.google.android.gms:play-services-analytics:$ANALYTICS_VERSION" />
 -->
 
+<!--
     <proguard-config>
 -keep class * extends java.util.ListResourceBundle {
 protected Object[][] getContents();
@@ -70,6 +71,7 @@ public static final *** NULL;
 public static final ** CREATOR;
 }
     </proguard-config>
+-->
   </platform>
 
 </plugin>
